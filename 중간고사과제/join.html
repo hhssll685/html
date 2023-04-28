@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한송림</title>
+    <link rel="stylesheet" type="text/css" href="202095108.css">
+    <style>
+        ul{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><!--이미지 영역-->
+            <img src="img/main.jpg">
+        </div>
+
+        <div><!--이미지 영역-->
+            <h2>지금도 그렇고 미래도 소프트웨어 세상입니다.</h2>
+            <p>4차 산업혁명을 선도할 소프트웨어 개발 인재를 양성합니다.</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="introduction.html">학과 소개</a>
+        <a href="history.html">학과 연혁</a>
+        <a href="join.html">회원가입</a>
+    </nav>
+
+    <section>
+        <h2>회원 가입</h2>
+        <article>
+            <form name="myForm" method="get" action="welcome.html">
+                 <fieldset>
+                    <legend>개인 정보(필수입력)</legend>
+                    아이디  <input type="text" name="user_name" id="user_name" placeholder="이름을 입력하세요." autofocus required>
+                    <br>
+                    <label for="user_pwd">비밀번호</label>
+                    <input type="password" name="user_pwd" id="user_pwd" maxlength="12">
+                 </fieldset>
+
+                 <fieldset>
+                    <legend>추가 정보(선택사항)</legend>
+                    <ul>
+                        <li>
+                            <label for="user_tel" class="title">전화번호</label>
+                            <input type="tel" id="user_tel">
+                        </li>
+                        <li>
+                            <label class="title">성별</label>
+                            <input type="radio" name="r_gender" id="r_gender_man" value="">
+                            <label for="r_gender_man">남&nbsp;&nbsp;&nbsp;<label>
+
+                            <input type="radio" name="r_gender" id="woman" value="">
+                            <label for="r_gender_woman">여</label>
+                        </li>
+                        <li>
+                            <label class="title">관심분야</label>
+                            <input type="checkbox" name="ck_c" id="ck_c" value="C">
+                            <label for="ck_c">C&nbsp;&nbsp;&nbsp;</label>
+
+                            <input type="checkbox" name="ck_python" id="ck_python" value="파이썬">
+                            <label for="ck_c">파이썬&nbsp;&nbsp;&nbsp;</label>
+                            <input type="checkbox" name="ck_r" id="ck_r" value="R">
+                            <label for="ck_c">R&nbsp;&nbsp;&nbsp;</label>
+                            <input type="checkbox" name="ck_app" id="ck_app" value="앱인벤터">
+                            <label for="ck_c">앱인벤터&nbsp;&nbsp;&nbsp;</label>
+                        </li>
+                    </ul>
+                 </fieldset>
+
+                 <div>
+                    <input type="submit" value="가입하기">
+                    <input type="reset" value="다시작성">
+                 </div>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>학과 학번 이름</p>
+    </footer>
+</body>
+</html>
