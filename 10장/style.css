@@ -1,0 +1,70 @@
+* {
+    font-family:"맑은 고딕";
+    margin:5px;
+}
+
+header,footer{
+    padding: 20px;
+    background-color: skyblue;
+    text-align: center;
+}
+
+/*nav영역 - 베경색 , 가운대 정럴, 글자크기18, 진하게 , 안쪽 여백20*/
+nav{
+    background-color: sandybrown;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    /*background-color: red;*/
+    display: inline-block;
+}
+
+a:link,a:visited{
+    color: black;
+}
+
+a:hover,a:active{
+    color: white;
+    background-color: steelblue;
+    text-decoration: underline;
+}
+section{
+    background-color: rosybrown;
+    border: 3px solid rgb(103,104,103);
+    width: 48%;
+    height: 200px;
+    float: left;
+}
+footer{
+    clear: both;
+}
+.c1{
+    color: white;
+    padding: 10px;
+}
+#s1 > h1{
+    background-color: darkcyan;
+}
+#s2 > h1{
+    background-color: greenyellow;
+}
+#s3 > h1{
+    background-color: yellow;
+}
+#s4 > h1{
+    background-color: blue;
+}
+#s5 > h1{
+    background-color: red;
+}
+#s6 > h1{
+    background-color: sandybrown;
+}
