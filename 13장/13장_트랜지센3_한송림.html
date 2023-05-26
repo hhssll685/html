@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>트랜지션3 - 한송림</title>
+        <style>
+            h1{
+                text-align: center;
+            }
+            div{
+                width: 100px;
+                height: 100px;
+                margin: 30px;
+                background-color: darkcyan;
+                transition-property: width,height,background-color,transform;
+                transition-duration: 2s;
+            }
+            .tr1:hover{
+                width: 200px;
+                height: 150px;
+                background-color: darkorange;
+                transform: rotate(180deg);
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="tr1"><h1>한송림</h1></div>      
+    
+    </body>
+</html>
